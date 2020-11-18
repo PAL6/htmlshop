@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机推荐组件</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f5f5f5;
+        }
+        .container{
+            width: 1226px;
+            margin: 0 auto;
+        }
+        .titleBox{
+             height: 30px;
+             line-height: 30px;
+             padding: 10px 0;
+        }
+        .title{
+            font-size: 21px;
+        }
+        .btn{
+            height: 25px;
+            margin-top: 2.5px;
+            border: 1px solid #333333;
+            float: right;
+        }
+        .btn a{
+            height: 25px;
+            width: 40px;
+            text-decoration: none;
+            color: grey;
+            text-align: center;
+            line-height: 25px;
+            font-size: 20px;
+            background-color: #cccccc;
+        }
+        .btn .rightBtn{
+            float: right;
+            display: block;
+            border-left: 1px solid #333333;
+        }
+        .left_ad{
+            width: 234px;
+            background-color: white;
+            height:339px;
+            float: left;
+        }
+        
+        .right_box{
+            width: 992px;
+            overflow: hidden;
+        }
+        
+        .right_box ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        .right_box ul li{
+            text-align: center;
+            margin-bottom: 10px;
+            float: left;
+            list-style: none;
+            width: 238px;
+            height: 338px;
+            border-top: 1px solid red;
+            background-color: white;
+            margin-left: 10px;
+        }
+        .right_box ul li .pic{
+            margin: 30px 37px;
+            width: 164px;
+            height: 160px;
+        }
+        .right_box ul li img{
+            width: 100%;
+            height: 100%;
+        }
+        .right_box ul li h5{
+            font-size: 15px;
+            margin: 0 0 6px 0;
+        }
+        .right_box ul li p{
+            font-size: 12px;
+            color: #cccccc;
+            margin: 0 0 20px 0;
+        }
+        .right_box ul li span{
+            font-size: 13px;
+            font-weight: 600;
+            color:#ff6709;
+        }
+        .right_box ul li del{
+            font-size: 13px;
+            margin: 0 0 0 5px;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="titleBox">
+            <span class="title">小米闪购</span>
+            <div class="btn">
+                <a href="javascript:;" style="float: left;"><</a>
+                <a href="javascript:;" class="rightBtn">></a>
+            </div>
+        </div>
+        <!-- 推荐 -->
+        <div class="phoneBox">
+          <div class="left_ad"></div>
+          <div class="right_box">
+              <ul>
+                  <li>
+                    <div class="pic"><img src="../assets/images/product/01.webp" alt=""></div>
+                    <h5>米家扫地一体机器人 白色</h5>
+                    <p>扫得干净，拖得彻底</p>
+                    <span>1799元</span><del>1999元</del>
+                  </li>
+                  <li>
+                    <div class="pic"><img src="../assets/images/product/02.png" alt=""></div>
+                    <h5>变频 | 米家互联网空调 1.5匹</h5>
+                    <p>变频，快速制冷热</p>
+                    <span>1899元</span><del>2299元</del>
+                  </li>
+                  <li>
+                    <div class="pic"><img src="../assets/images/product/03.webp" alt=""></div>
+                    <h5>米兔儿童学习手表4 蓝色</h5>
+                    <p>8天超长待机，AI双摄高清视频通话</p>
+                    <span>849元</span><del>899元</del>
+                  </li>
+                  <li>
+                    <div class="pic"><img src="../assets/images/product/04.webp" alt=""></div>
+                    <h5>米家手持挂烫机 白色</h5>
+                    <p>快速除皱，即烫即穿</p>
+                    <span>119元</span><del>129元</del>
+                  </li>
+              </ul>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
