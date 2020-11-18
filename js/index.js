@@ -28,6 +28,12 @@ window.addEventListener('load', function () {
     // 离开
     navLis.children[i].addEventListener('mouseleave', function () {
       navProduct.style.display = 'none';
-    })
+    });
+    navProduct.addEventListener('mouseenter',function (){
+      this.style.display = 'block'
+    });
+    navProduct.addEventListener('mouseleave',function (){
+      this.style.display = 'none'
+    });
   }
 });
